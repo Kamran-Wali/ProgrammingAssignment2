@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Computing the inverse of a square matrix using the solve function
 makeCacheMatrix <- function(x = matrix()) {
        ## This function will return a list of the following functions:
        ## set the value of the matrix
@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
              setinv=setinv, getinv=getinv)
 }
 
-## Write a short comment describing this function
+## Caching the inverse of a square matrix
 cacheSolve <- function(x, ...) {
        
         ## will cache and return inverse of the original matrix 
